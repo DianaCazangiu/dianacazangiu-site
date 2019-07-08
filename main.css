@@ -1,0 +1,191 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-size : 100%;
+}
+
+#name-headline {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  
+}
+
+.darkviolet {
+  background-color: #9400d3;
+}
+
+.deepskyblue {
+  background-color: #00bfff;
+}
+
+.silver {
+  background-color: #c0c0c0;
+}
+
+.aqua {
+  background-color: rgba(0,0,0,0);
+  
+}
+
+.powderblue {
+  background-color: powderblue;
+}
+  
+
+img {
+  width : 120px;
+  height : 120px;
+  border-radius : 50%;
+  padding : 5px;
+  background-color : navy;
+  transition : all 0.6s ease-in-out;
+  filter: opacity(100%);
+  border: navy dashed 0.2px;
+}
+
+img:hover {
+  transform : scale(1.4);
+  filter : grayscale(50%);
+}
+
+ul {
+  text-align: center;
+  list-style-type : none;
+}
+
+li {
+  display: inline;
+}
+
+body {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  height : 100vh;
+}
+
+#head, #links {
+  text-align : center;
+}
+
+section {
+  text-align: center;
+  font-size: 20px;
+}
+
+#head, #content {
+  width : 95%;
+  margin : 0 auto;
+}
+
+#head, #about {
+  margin-bottom : 5%;
+}
+
+body {
+  background : url('assets/sea.jpg') center center no-repeat fixed;
+  background-size : cover;
+  background-image : url('assets/sea.jpg');
+  background-repeat : no-repeat;
+  background-position : center center;
+  background-attachment : fixed;
+}
+
+#head {
+  margin-top : -50px;
+  border-radius : 10px;
+  filter: opacity(90%);
+  background-color: hsl(0 0% 100% / 0.3);
+  border: 10px;
+}
+
+
+
+#name-headline {
+  margin-top : 20px;
+  background-color : hsl(0 0% 100% / 0);
+
+}
+#profile-image {
+  margin-top : -50px;
+  background-color : hsl(0 0% 100% / 0);
+}
+
+#content {
+  padding : 3% 5%;
+  border-top : 1px solid hsl(0 0% 10% / 1);
+  margin-bottom : 10px;
+  margin-top : 10px;
+  filter : opacity(100%);
+  border-radius: 10px;
+  box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
+  background-color : hsl(0 0% 100% / .6);
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Merriweather", sans-serif;
+}
+
+h1, p {
+  color: #000080;
+}
+
+h2 {
+  color: red;
+}
+.flag {
+  width: 50px;
+  height: 30px;
+  border-radius : 5%;
+  background-color : gray;
+  border: gray solid 0.1px;
+  
+}
+
+#header  {
+  
+  display: block;
+}
+
+
+
+ul {
+    text-align: center;
+  list-style-type : none;
+}
+
+#business-card {
+  width : 480px;
+  /*background-color : hsl(0 0% 100% / 0.9);*/
+  border-radius : 30px;
+  /*box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);*/
+  filter : opacity(80%);
+  margin-top : 50px;
+  margin : 10px;
+}
+
+
+.links {
+  background-color: hsl(0 0% 100% / 0.3);
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
+}
+
+h3, h4 {
+  font-size: 16px;
+}
+
+@media(min-width: 600px) {
+  #business-card {
+    display: inline-block;
+    border-bottom: none;
+    width: 70rem;
+  }
+}
+
