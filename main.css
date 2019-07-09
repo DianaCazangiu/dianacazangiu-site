@@ -131,20 +131,20 @@ background-color : hsl(0 0% 100% / 0);
 p {
   color: darkblue;
   text-align: justify;
-  font-size: 18px;
+  font-size: 22px;
   font-family: Merriweather, sans-serif;
 }
 
 h1 {
   color: red;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
 }
 
 h2 {
   color: green;
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h3,h4 {
@@ -153,7 +153,7 @@ h3,h4 {
 }
 section {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .flag {
