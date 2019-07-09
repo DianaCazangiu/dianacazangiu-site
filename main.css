@@ -42,7 +42,7 @@ width : 480px;
 background-color : hsl(0 0% 100% / 0.9);
 border-radius : 20px;
 box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.8);
-filter : opacity(80%);
+filter : opacity(70%);
 margin-top : 50px;
 margin : 10px;
 }
@@ -71,7 +71,7 @@ padding : 1px;
 background-color : blue;
 transition : all 0.5s ease-in-out;
 transform : scale(1.3);
-filter : opacity(500%);
+/*filter : opacity(700%);*/
 border : currentColor dashed 0.4px;
 }
 
@@ -89,7 +89,7 @@ text-align: center;
 }
 li {
 display : inline;
-resize: both;
+
   
 }
 #head, #about {
@@ -116,7 +116,7 @@ background-attachment : fixed;
 margin-top : -50px;
 border-radius : 50px;
 background-color : hsl(0 0% 100% / 0);
- filter: opacity(90%); 
+ filter: opacity(100%); 
 }
 
 #name-headline {
@@ -129,27 +129,28 @@ background-color : hsl(0 0% 100% / 0);
 }
 
 p {
-  color: darkblue;
+  color: #191970;
   text-align: justify;
-  font-size: 28px;
+  font-size: 22px;
   font-family: Merriweather, sans-serif;
 }
 
 h1 {
   color: red;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 h2 {
   color: green;
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h3,h4 {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
+    color: #00008b;
 }
 section {
   text-align: center;
@@ -175,11 +176,41 @@ section {
   box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
 }
 
-@media(min-width: 600px) {
+/*@media(min-width: 600px) {
   #business-card {
     display: inline-block;
     border-bottom: none;
     width: 70rem;
   }
+}*/
+
+@media (min-width: 768px) {
+  #business-card {
+    display: inline-block;
+    border-bottom: none;
+    width: 100%;
+  }
+    
+  footer {
+    min-height: 7vh;
+  }
+
+    p {
+    font-size: 2rem;
+  } 
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
