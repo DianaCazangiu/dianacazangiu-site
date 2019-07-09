@@ -39,13 +39,12 @@ font-size : 100%;
 
 #business-card {
 width : 480px;
-
 background-color : hsl(0 0% 100% / 0.9);
 border-radius : 20px;
 box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.8);
-filter : opacity(70%);
+filter : opacity(50%);
 margin-top : 50px;
-margin : 50px;
+margin : 10px;
 }
 
 body {
