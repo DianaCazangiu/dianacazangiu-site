@@ -51,7 +51,7 @@ body {
 display : flex;
 justify-content : center;
 align-items : center;
-height : 100vh;
+height : 120vh;
 }
 
 #head, #links {
@@ -131,7 +131,7 @@ background-color : hsl(0 0% 100% / 0);
 p {
   color: darkblue;
   text-align: justify;
-  font-size: 26px;
+  font-size: 28px;
   font-family: Merriweather, sans-serif;
 }
 
@@ -144,7 +144,7 @@ h1 {
 h2 {
   color: green;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 h3,h4 {
