@@ -38,7 +38,7 @@ font-size : 100%;
   
 
 #business-card {
-width : 380px;
+width : 480px;
 
 background-color : hsl(0 0% 100% / 0.9);
 border-radius : 20px;
@@ -189,7 +189,7 @@ section {
   #business-card {
     display: inline-block;
     border-bottom: none;
-    width: 90%;
+    width: 70rem;
   }
     
   footer {
