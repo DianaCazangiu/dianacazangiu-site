@@ -52,7 +52,7 @@ body {
 display : flex;
 justify-content : center;
 align-items : center;
-height : 100%;
+height : 100vh;
 }
 
 #head, #links {
@@ -132,30 +132,30 @@ background-color : hsl(0 0% 100% / 0);
 p {
   color: #191970;
   text-align: justify;
-  font-size: 38px;
+  font-size: 18px;
   font-family: Merriweather, sans-serif;
 }
 
 h1 {
   color: red;
-  font-size: 42px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 h2 {
   color: green;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 h3,h4 {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
     color: #00008b;
 }
 section {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .flag {
