@@ -1,6 +1,6 @@
 * {
-margin : 10;
-padding : 10;
+margin : 0;
+padding : 0;
 box-sizing : border-box;
 font-size : 100%;
 }
@@ -8,7 +8,7 @@ font-size : 100%;
 #name-headline {
   font-family: "Raleway", sans-serif;
   text-align: center;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   margin-top : 30px;
    background-color : hsl(0 0% 100% / 0);
@@ -38,7 +38,8 @@ font-size : 100%;
   
 
 #business-card {
-width : 350px;
+width : 380px;
+
 background-color : hsl(0 0% 100% / 0.9);
 border-radius : 20px;
 box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.8);
@@ -51,7 +52,7 @@ body {
 display : flex;
 justify-content : center;
 align-items : center;
-height : 90vh;
+height : 100%;
 }
 
 #head, #links {
@@ -64,8 +65,8 @@ margin : 0 auto;
 }
 
 img {
-width : 100px;
-height : 100px;
+width : 85px;
+height : 85px;
 border-radius : 50%;
 padding : 1px;
 background-color : blue;
@@ -120,11 +121,11 @@ background-color : hsl(0 0% 100% / 0);
 }
 
 #name-headline {
-margin-top : 30px;
+margin-top : 40px;
 background-color : hsl(0 0% 100% / 0);
 }
 #profile-image {
-margin-top : -50px;
+margin-top : -40px;
 background-color : hsl(0 0% 100% / 0);
 }
 
@@ -144,7 +145,7 @@ h1 {
 h2 {
   color: green;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 h3,h4 {
@@ -196,7 +197,7 @@ section {
   }
 
     p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   } 
   
 }
