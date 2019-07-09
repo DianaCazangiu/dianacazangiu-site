@@ -131,7 +131,7 @@ background-color : hsl(0 0% 100% / 0);
 p {
   color: #191970;
   text-align: justify;
-  font-size: 28px;
+  font-size: 32px;
   font-family: Merriweather, sans-serif;
 }
 
@@ -144,7 +144,7 @@ h1 {
 h2 {
   color: green;
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h3,h4 {
@@ -184,7 +184,7 @@ section {
   }
 }*/
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   #business-card {
     display: inline-block;
     border-bottom: none;
