@@ -1,0 +1,224 @@
+
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-size : 100%;
+}
+/* ==== A SIMPLE TOP NAVIGATION ====*/
+
+nav ul {
+  background-color: #4682b4;
+  text-align: center;
+}
+
+nav li {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffb6c1;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #ffb6c1;
+  color: #eee;
+}
+
+
+.flag {
+    width: 50px;
+  height: 30px;
+  border-radius : 5%;
+  background-color : gray;
+  border: gray solid 0.1px;
+  display:inline;
+  
+}
+
+li {
+  display: inline;
+}
+
+ul {
+    text-align: right;
+  list-style-type : none;
+}
+
+p {
+  color: #00ffff;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.35rem;
+  text-align: justify;
+  margin: 1rem;
+  
+ 
+  
+}
+header h1 {
+  color: red;
+  font-weight: bold;
+  font-family: "Libre-Baskerville", sans;
+  font-size: 6rem;
+}
+header p {
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: "Muli", sans;
+  
+}
+
+footer {
+  font-size: 1.2rem;
+  
+  text-align: center;
+  background: #2f4f4f;
+  color: #fff;
+}
+
+footer a {
+  color: cyan;
+  
+}
+
+footer ul {
+  text-align: center;
+}
+
+
+
+h3 {
+  font-family: "Muli", sans;
+ 
+}
+
+table {
+  color: #0000ff;
+  background: #c0c0c0;
+}
+
+li {
+  font-style: italic;
+  display: inline;
+}
+
+.bg {
+  background: #2f4f4f;
+}
+
+th {
+  color: #0000ff;
+}
+
+img {
+  
+  border: navy solid 1px;
+}
+
+.row {
+  margin: .5rem;
+  
+}
+img:hover {
+  filter : grayscale(70%);
+}
+
+.date {
+  font-family: "Merriweather", cursive;
+  color: #00ffff;
+  font-size: 1.5rem;
+}
+
+.cover {
+  background: url("assets/cyprus3.jpg") no-repeat center;
+ background-size: cover;
+  height: 30vh;
+  color: hsla(0,0%,600%,.3);
+  display: table;
+  text-align: center;
+  width: 100vw;
+}
+
+
+.quote {
+  color:#00ffff;
+  font-weight: bold;
+  font-family: "Merriweather", cursive;
+  font-size: 2rem;
+}
+
+.wrapper-date {
+  margin: 1rem;
+}
+
+.wt {
+  background: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .wrapper-date {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 100%;
+    
+  }
+  
+  .wrapper-date h1 {
+    font-size: 6rem;
+    margin-bottom: 100px;
+  }
+}
+
+.gray {
+  background: #c0c0c0;
+}
+
+.context {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
+@media (min-width: 768px) {
+  header h1 {
+    text-transform: uppercase;
+    margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    min-height: 7vh;
+  }
+}
+
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 600px) {
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}

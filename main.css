@@ -1,8 +1,73 @@
+/* ==== GENERAL STYLES ====*/
+
 * {
 margin : 0;
 padding : 0;
 box-sizing : border-box;
 font-size : 100%;
+}
+/* ==== A SIMPLE TOP NAVIGATION ====*/
+
+nav ul {
+  background-color: #4682b4;
+  text-align: center;
+}
+
+nav li {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffb6c1;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #ffb6c1;
+  color: #eee;
+}
+
+
+.flag {
+  width: 60px;
+  height: 40px;
+}
+
+ li {
+  display: inline;
+}
+
+ul {
+    text-align: right;
+  list-style-type : none;
+}
+
+footer ul {
+    text-align: center;
+  list-style-type : none;
+  
+}
+
+.red {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
 }
 
 #name-headline {
@@ -11,35 +76,19 @@ font-size : 100%;
   font-size: 18px;
   font-weight: bold;
   
-}
-
-.darkviolet {
-  background-color: #9400d3;
-}
-
-.deepskyblue {
-  color: #00bfff;
-}
-
-.silver {
-  background-color: #c0c0c0;
-}
-
-.aqua {
-  background-color: rgba(0,0,0,0);
   
 }
 
-.powderblue {
-  background-color: powderblue;
+html {
+  align-items: center;
 }
-  
 
 img {
-  width : 95px;
-  height : 95px;
-  border-radius : 50%;
-  padding : 5px;
+  width : 120px;
+  height : 120px;
+  margin-top: 10px;
+  border-radius : 10%;
+  padding : 0px;
   /*background-color : navy;*/
   transition : all 0.6s ease-in-out;
   filter: opacity(100%);
@@ -51,17 +100,10 @@ img:hover {
   filter : grayscale(50%);
 }
 
-ul {
-  text-align: center;
-  list-style-type : none;
-}
 
-li {
-  display: inline;
-}
 
 body {
-  display : flex;
+  display : inline;
   justify-content : center;
   align-items : center;
   height : 100vh;
@@ -95,7 +137,7 @@ body {
 }
 
 #head {
-  margin-top : -50px;
+  margin-top : 10px;
   border-radius : 10px;
   filter: opacity(90%);
   background-color: hsl(0 0% 100% / 1);
@@ -105,12 +147,12 @@ body {
 
 
 #name-headline {
-  margin-top : 10px;
+  margin-top : 20px;
   background-color : hsl(0 0% 100% / 0);
 
 }
 #profile-image {
-  margin-top : -50px;
+  margin-top : 20px;
   background-color : hsl(0 0% 100% / 1);
 }
 
@@ -122,29 +164,29 @@ body {
   filter : opacity(100%);
   border-radius: 10px;
   box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
-  background-color : hsl(0 0% 100% / .6);
+  background-color : darkslategrey;
 }
 
 p {
-  font-size: 17px;
+  font-size: 22px;
   text-align: justify;
   font-family: "Merriweather", sans-serif;
 margin-top: 0px;
 }
 
 h1, p {
-  color: #000080;
+  color: skyblue;
     
 }
 
 h1 {
-    font-size: 22px;
-    color: red;
+    font-size: 26px;
+    color: firebrick;
     font-weight: bold;
 }
 h2 {
   color: black;
-    font-size: 20px;
+    font-size: 22px;
 }
 .flag {
     width: 50px;
@@ -152,16 +194,10 @@ h2 {
   border-radius : 5%;
   background-color : gray;
   border: gray solid 0.1px;
+  display:inline;
   
 }
 
-
-
-
-ul {
-    text-align: center;
-  list-style-type : none;
-}
 
 #business-card {
   width : 480px;
@@ -169,8 +205,9 @@ ul {
   border-radius : 30px;
   /*box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);*/
   filter : opacity(80%);
-  margin-top : 0px;
+  margin-top : 50px;
   margin : 10px;
+  align-content: center;
 }
 
 
@@ -187,11 +224,62 @@ h3, h4 {
     
 }
 
+.deepskyblue {
+  color: darkblue;
+  width: 50px;  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: darkred;
+}
+
+
+
+#clock {
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 2rem;
+  margin-top: -53px;
+  color: #00ff00;
+  border: #ff471a solid 2px;
+  border-radius: 10px;
+  width: 250px;
+}
+  
+  
+
+
+@media (min-width: 600px) {
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}
+
 @media(min-width: 600px) {
   #business-card {
     display: inline-block;
     border-bottom: none;
-    width: 70rem;
+    width: 100vw;
+    margin-top: 10px;
+    align-items: center;
   }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  
 }
-

@@ -1,0 +1,122 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-size : 100%;
+}
+/* ==== A SIMPLE TOP NAVIGATION ====*/
+
+nav ul {
+  background-color: #4682b4;
+  text-align: center;
+}
+
+nav li {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffb6c1;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #ffb6c1;
+  color: #eee;
+}
+
+
+.flag {
+    width: 50px;
+  height: 30px;
+  border-radius : 5%;
+  background-color : gray;
+  border: gray solid 0.1px;
+  display:inline;
+  
+}
+
+li {
+  display: inline;
+}
+
+ul {
+    text-align: right;
+  list-style-type : none;
+}
+
+p {
+  color: #00ffff;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.35rem;
+  text-align: justify;
+  margin: 1rem;
+}
+
+img {
+  transition : all 0.6s ease-in-out;
+  border: navy solid 1px;
+  width: 200rem;
+  height: 250rem;
+}
+
+.headline h1 {
+  color: red;
+}
+.row {
+  margin: .5rem;
+  
+}
+img:hover {
+  filter : grayscale(70%);
+  transform: rotate(20deg);
+}
+
+.bg {
+  background: #2f4f4f;
+  
+}  
+#clock {
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 2rem;
+  margin-top: -53px;
+  color: #00ff00;
+  border: #ff471a solid 2px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 600px) {
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+   h1 {
+    text-transform: uppercase;
+    margin-bottom: 90px;
+  }
+}
