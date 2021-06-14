@@ -84,19 +84,19 @@ html {
 }
 
 img {
-  width : 120px;
-  height : 140px;
+  width : 140px;
+  height : 160px;
   margin-top: 10px;
   border-radius : 10%;
   padding : 0px;
-  /*background-color : navy;*/
+  background-color : navy;
   transition : all 0.6s ease-in-out;
   filter: opacity(100%);
   /*border: navy dashed 0.1px;*/
 }
 
 img:hover {
-  transform : scale(1.2);
+  /*transform : scale(1.2);*/
   filter : grayscale(30%);
 }
 
