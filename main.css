@@ -258,9 +258,28 @@ h3, h4 {
   width: 230px;
 }
 
+@media (min-width: 768px) {
+  header h1 {
+    text-transform: uppercase;
+    margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    min-height: 7vh;
+  }
+}
+
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.75rem;
+  }
+}
 
   
-  
+ 
 
 @media (min-width: 600px) {
   nav li{
