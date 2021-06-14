@@ -88,7 +88,8 @@ img:hover {
 }  
 #clock {
   text-align: center;
-  position: fixed;
+  /*position: fixed;*/
+  display: flex;
   top: 50px;
   font-family: 'Expletus Sans', cursive;
   font-size: 2rem;
