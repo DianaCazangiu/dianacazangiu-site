@@ -289,11 +289,4 @@ h3, h4 {
   
   
 }
-@media (min-width: 768px) {
-   h1 {
-    text-transform: uppercase;
-    margin-bottom: 90px;
-    width: 100%;
-  }
-}
 
