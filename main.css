@@ -262,6 +262,7 @@ h3, h4 {
   header h1 {
     text-transform: uppercase;
     margin-bottom: 90px;
+    width:100%;
   }
 }
 
