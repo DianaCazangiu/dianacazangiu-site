@@ -1,0 +1,285 @@
+/* ==== GENERAL STYLES ====*/
+
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-size : 100%;
+}
+/* ==== A SIMPLE TOP NAVIGATION ====*/
+
+nav ul {
+  background-color: #4682b4;
+  text-align: center;
+}
+
+nav li {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffb6c1;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #ffb6c1;
+  color: #eee;
+}
+
+
+.flag {
+  width: 60px;
+  height: 40px;
+}
+
+ li {
+  display: inline;
+}
+
+ul {
+    text-align: right;
+  list-style-type : none;
+}
+
+footer ul {
+    text-align: center;
+  list-style-type : none;
+  
+}
+
+.red {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}
+
+#name-headline {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  
+  
+}
+
+html {
+  align-items: center;
+}
+
+img {
+  width : 120px;
+  height : 200px;
+  margin-top: 10px;
+  border-radius : 10%;
+  padding : 0px;
+  /*background-color : navy;*/
+  transition : all 0.6s ease-in-out;
+  filter: opacity(100%);
+  /*border: navy dashed 0.1px;*/
+}
+
+img:hover {
+  /*transform : scale(1.4);
+  /*filter : grayscale(50%);
+}
+
+
+
+body {
+  display : inline;
+  justify-content : center;
+  align-items : center;
+  height : 100vh;
+}
+
+#head, #links {
+  text-align : center;
+}
+
+section {
+  text-align: center;
+  font-size: 14px;
+}
+
+#head, #content {
+  width : 95%;
+  margin : 0 auto;
+}
+
+#head, #about {
+  margin-bottom : 5%;
+}
+
+body {
+  background : url('assets/sea.jpg') center center no-repeat fixed;
+  background-size : cover;
+  background-image : url('assets/sea.jpg');
+  background-repeat : no-repeat;
+  background-position : center center;
+  background-attachment : fixed;
+}
+
+#head {
+  margin-top : 10px;
+  border-radius : 10px;
+  filter: opacity(90%);
+  background-color: hsl(0 0% 100% / 1);
+  border: 10px;
+}
+
+
+
+#name-headline {
+  margin-top : 20px;
+  background-color : hsl(0 0% 100% / 0);
+
+}
+#profile-image {
+  margin-top : 20px;
+  background-color : hsl(0 0% 100% / 1);
+}
+
+#content {
+  padding : 2% 3%;
+  border-top : 1px solid hsl(0 0% 10% / 1);
+  margin-bottom : 5px;
+  margin-top : 10px;
+  filter : opacity(100%);
+  border-radius: 10px;
+  box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
+  background-color : darkslategrey;
+}
+
+p {
+  font-size: 22px;
+  text-align: justify;
+  font-family: "Merriweather", sans-serif;
+margin-top: 0px;
+}
+
+h1, p {
+  color: skyblue;
+    
+}
+
+h1 {
+    font-size: 26px;
+    color: firebrick;
+    font-weight: bold;
+}
+h2 {
+  color: black;
+    font-size: 22px;
+}
+.flag {
+    width: 50px;
+  height: 30px;
+  border-radius : 5%;
+  background-color : gray;
+  border: gray solid 0.1px;
+  display:inline;
+  
+}
+
+
+#business-card {
+  width : 480px;
+  /*background-color : hsl(0 0% 100% / 0.9);*/
+  border-radius : 30px;
+  /*box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);*/
+  filter : opacity(80%);
+  margin-top : 50px;
+  margin : 10px;
+  align-content: center;
+}
+
+
+.links {
+  background-color: hsl(0 0% 100% / 1);
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
+}
+
+h3, h4 {
+  font-size: 16px;
+    color: blue;
+    
+}
+
+.deepskyblue {
+  color: darkblue;
+  width: 50px;  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: darkred;
+}
+
+
+
+#clock {
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 2rem;
+  margin-top: -53px;
+  color: #00ff00;
+  border: #ff471a solid 2px;
+  border-radius: 10px;
+  width: 230px;
+}
+  
+  
+
+
+@media (min-width: 600px) {
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}
+
+@media(min-width: 600px) {
+  #business-card {
+    display: inline-block;
+    border-bottom: none;
+    width: 100vw;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  
+}
