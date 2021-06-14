@@ -97,7 +97,7 @@ img {
 
 img:hover {
   transform : scale(1.2);
-  filter : grayscale(50%);
+  filter : grayscale(30%);
 }
 
 
@@ -250,12 +250,12 @@ h3, h4 {
   /*display: flex;*/
   top: 50px;
   font-family: 'Expletus Sans', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: -53px;
   color: #00ff00;
-  border: #ff471a solid 1px;
-  border-radius: 5px;
-  width: 200px;
+  border: #ff471a solid 2px;
+  border-radius: 10px;
+  width: 230px;
 }
 
 
