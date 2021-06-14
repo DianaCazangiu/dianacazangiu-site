@@ -258,11 +258,7 @@ h3, h4 {
   width: 200px;
 }
 
-@media (min-width: 768px) {
-  p {
-    font-size: 1.75rem;
-  }
-}
+
   
   
 
