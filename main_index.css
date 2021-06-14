@@ -96,7 +96,7 @@ img:hover {
   color: #00ff00;
   border: #ff471a solid 2px;
   border-radius: 10px;
-  width: 230px;
+  width: 200px;
 }
 
 
@@ -118,6 +118,6 @@ img:hover {
    h1 {
     text-transform: uppercase;
     margin-bottom: 90px;
-       width: 100%;
+    width: 100%;
   }
 }
