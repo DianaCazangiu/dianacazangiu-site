@@ -3,21 +3,10 @@
 <head>
   <link rel='stylesheet' type='text/css' href='main.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <meta name="viewport" content="width=device-width">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.min.js"></script>
-    <script>// Initializeaza si adauga harta
-    function initMap() {
-  // Locatia in coordonate geografice
-    var uluru = {lat: 45.6524567, lng: 25.526423};
-  // Harta centrata pe coordonatele de mai sus
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 4, center: uluru});
-  // Markerul pozitionat in acelasi loc
-    var marker = new google.maps.Marker({position: uluru, map: map});
-}</script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
+    
 
   <title>About me</title>
 </head>
