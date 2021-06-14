@@ -193,7 +193,19 @@ img:hover {
   margin-right: 1rem;
 }
 
-
+#clock {
+  text-align: center;
+  position: fixed;
+  /*display: flex;*/
+  top: 50px;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 1.5rem;
+  margin-top: -53px;
+  color: #00ff00;
+  border: #ff471a solid 1px;
+  border-radius: 10px;
+  width: 200px;
+}
 
 @media (min-width: 768px) {
   header h1 {
