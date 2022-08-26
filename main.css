@@ -23,8 +23,9 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #ffb6c1;
+  color: snow;
   display: block;
+   font-weight: bold; 
 }
 
 nav a:hover {
@@ -59,7 +60,7 @@ footer ul {
 }
 
 .red {
-  color: red;
+  color: snow;
 }
 
 @media (min-width: 600px) {

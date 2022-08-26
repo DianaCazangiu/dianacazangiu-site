@@ -22,8 +22,9 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #ffb6c1;
+  color: snow;
   display: block;
+    font-weight: bold;
 }
 
 nav a:hover {

@@ -18,14 +18,14 @@ nav li {
   font-size: 1.4rem;
   line-height: 3rem;
   height: 3rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #00FFFF;
+  
 }
 
 nav a {
   text-decoration: none;
   color: snow;
   display: block;
-    font-weight: bold;
 }
 
 nav a:hover {
@@ -74,7 +74,7 @@ footer ul {
 #name-headline {
   font-family: "Raleway", sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   
   
@@ -86,19 +86,19 @@ html {
 
 img {
   width : 120px;
-  height : 160px;
+  height : 150px;
   margin-top: 10px;
   border-radius : 10%;
   padding : 0px;
   /*background-color : navy;*/
-  transition : all 0.6s ease-in-out;*/
+  transition : all 0.6s ease-in-out;
   filter: opacity(100%);
   /*border: navy dashed 0.1px;*/
 }
 
 img:hover {
-  transform : scale(1.1);
-  filter : grayscale(50%);
+  transform : scale(1.2);
+  filter : grayscale(30%);
 }
 
 
@@ -135,6 +135,10 @@ body {
   background-repeat : no-repeat;
   background-position : center center;
   background-attachment : fixed;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+   ;
+    
 }
 
 #head {
@@ -147,41 +151,11 @@ body {
 
 
 
-#name-headline {
-  margin-top : 20px;
-  background-color : hsl(0 0% 100% / 0);
 
-}
-#profile-image {
-  margin-top : 20px;
-  background-color : hsl(0 0% 100% / 1);
-}
 
-#content {
-  padding : 2% 3%;
-  border-top : 1px solid hsl(0 0% 10% / 1);
-  margin-bottom : 5px;
-  margin-top : 10px;
-  filter : opacity(100%);
-  border-radius: 10px;
-  box-shadow : 10px 10px 80px hsl(0 0% 0% / 0.4);
-  background-color : darkslategrey;
-}
-
-p {
-  font-size: 22px;
-  text-align: justify;
-  font-family: "Merriweather", sans-serif;
-margin-top: 0px;
-}
-
-h1, p {
-  color: skyblue;
-    
-}
 
 h1 {
-    font-size: 26px;
+    font-size: 32px;
     color: firebrick;
     font-weight: bold;
 }
@@ -190,8 +164,8 @@ h2 {
     font-size: 22px;
 }
 .flag {
-    width: 50px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
   border-radius : 5%;
   background-color : gray;
   border: gray solid 0.1px;
@@ -248,6 +222,7 @@ h3, h4 {
 #clock {
   text-align: center;
   position: fixed;
+  /*display: flex;*/
   top: 50px;
   font-family: 'Expletus Sans', cursive;
   font-size: 2rem;
@@ -257,9 +232,30 @@ h3, h4 {
   border-radius: 10px;
   width: 230px;
 }
-  
-  
 
+/*@media (min-width: 768px) {
+  header h1 {
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    width:100%;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    min-height: 7vh;
+  }
+}
+
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.75rem;
+  }
+}*/
+
+  
+ 
 
 @media (min-width: 600px) {
   nav li{
@@ -284,3 +280,4 @@ h3, h4 {
   
   
 }
+
