@@ -129,9 +129,9 @@ section {
 }
 
 body {
-  background : url('assets/sea.jpg') center center no-repeat fixed;
+  background : url('assets/beach.jpg') center center no-repeat fixed;
   background-size : cover;
-  background-image : url('assets/sea.jpg');
+  background-image : url('assets/beach.jpg');
   background-repeat : no-repeat;
   background-position : center center;
   background-attachment : fixed;
@@ -151,7 +151,9 @@ body {
 
 
 
-
+a {
+    color: snow;
+}
 
 
 h1 {
