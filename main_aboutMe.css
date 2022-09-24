@@ -293,11 +293,16 @@ h3, h4 {
   }
 }
     
-    @media only screen and (max-device-width: 480px) {
-       p {
+@media only screen and (max-device-width: 480px) {
+    p {
     font-size: 1.75rem;
-      width: 100%;
   }
+    
+@media only screen and (max-device-width: 480px) {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  } 
     }
   
   p {
