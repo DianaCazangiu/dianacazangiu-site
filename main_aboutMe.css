@@ -277,6 +277,20 @@ h3, h4 {
     margin-top: 10px;
     align-items: center;
   }
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.75rem;
+  }
+}
+    
+@media (min-width: 768px) {
+   h1 {
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    width: 100%;
+  }
+}
   
   p {
     font-size: 4rem;
