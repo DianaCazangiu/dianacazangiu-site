@@ -299,6 +299,7 @@ h3, h4 {
   }
     
 @media only screen and (max-device-width: 480px) {
+    nav li{
     display: inline-block;
     border-bottom: none;
     width: 7.5rem;
