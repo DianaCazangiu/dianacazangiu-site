@@ -293,13 +293,13 @@ h3, h4 {
   }
 }
     
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-width: 200px) and (max-width: 767px) {
     p {
     font-size: 1.75rem;
   }
     }
     
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-width: 200px) and (max-width: 767px) {
     nav li{
     display: inline-block;
     border-bottom: none;
@@ -307,7 +307,7 @@ h3, h4 {
   } 
     }
     
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-width: 200px) and (max-width: 767px) {
    h1 {
     text-transform: uppercase;
     margin-bottom: 90px;
