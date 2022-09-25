@@ -112,6 +112,7 @@ body {
 
 #head, #links {
   text-align : center;
+    color: snow;
 }
 
 section {
@@ -158,12 +159,13 @@ a {
 
 h1 {
     font-size: 32px;
-    color: firebrick;
+    color: ghostwhite;
     font-weight: bold;
 }
 h2 {
-  color: black;
+  color: seashell;
     font-size: 20px;
+    
 }
 .flag {
   width: 60px;
@@ -197,13 +199,17 @@ h2 {
 
 h3, h4 {
   font-size: 16px;
-    color: blue;
+    color: snow;
     
 }
 
 .deepskyblue {
-  color: darkblue;
+  color: seashell;
   width: 50px;  
+}
+.snow {
+    color: snow;
+    width: 16px;
 }
 
 .fa {
