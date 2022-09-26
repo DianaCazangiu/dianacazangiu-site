@@ -9,7 +9,7 @@ font-size : 100%;
 /* ==== A SIMPLE TOP NAVIGATION ====*/
 
 nav ul {
-  background-color: #4682b4;
+  background-color: darkgreen;
   text-align: center;
 }
 
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: lightgreen;
   transition: background-color .3s ease-in-out;
 }
 
