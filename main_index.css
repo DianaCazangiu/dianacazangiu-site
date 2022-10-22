@@ -101,6 +101,14 @@ img:hover {
   width: 200px;
 }
 
+#logo {
+  display: inline-block;
+  margin: 15px; /* margin: 20px was off */
+  float: left;
+  height: 60px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
 
 @media (min-width: 768px) {
   p {
@@ -123,3 +131,9 @@ img:hover {
     width: 100%;
   }
 }
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    iframe {
+    width: 100%;
+  }
+    }
